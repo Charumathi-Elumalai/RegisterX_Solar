@@ -2,5 +2,5 @@ Flask
 Werkzeug
 opencv-python-headless
 deepface
-tensorflow-cpu
+tensorflow
 gunicorn
