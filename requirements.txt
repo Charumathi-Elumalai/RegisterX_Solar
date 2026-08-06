@@ -1,18 +1,6 @@
-Flask==3.1.3
-Werkzeug==3.1.8
-
-# Face recognition stack
-opencv-python==5.0.0.93
-deepface==0.0.100
-tensorflow-cpu==2.21.0
-tf-keras==2.21.0
-numpy>=2
-
-# Anti-spoofing (liveness) model — needs ~200MB, optional but recommended.
-# If your VPS is very small on disk, you can remove this line; the app
-# will automatically fall back to the lighter motion-check-only liveness
-# and log a warning (see face_engine.py).
-torch
-
-# Production server (see README for gunicorn run command)
+Flask
+Werkzeug
+opencv-python-headless
+deepface
+tensorflow-cpu
 gunicorn
